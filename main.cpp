@@ -16,10 +16,6 @@ class MyThreads : public zwfang::MultipleThreads{
 
 int main()
 {
-	zwfang::BlockingQueue<float> que;	
-	zwfang::MultipleThreads mt;
-	mt.StartThreads(3);
-	mt.StopThreads();
 	MyThreads mt2;
 	mt2.StartThreads(5);
 	mt2.StopThreads();
